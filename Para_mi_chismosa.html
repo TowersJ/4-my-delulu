@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day, My Sunshine</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: "Brush Script MT", cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #E6E6FA;
+            overflow: hidden;
+        }
+
+        .container {
+            display: none;
+            background-color: #FFF;
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            color: #ff4d6d;
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .heart {
+            font-size: 5em;
+            color: #ff4d6d;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #cf3476;
+        }
+
+        .button {
+            padding: 15px 30px;
+            background-color: #ff4d6d;
+            color: white;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #cf3476;
+        }
+    </style>
+</head>
+<body>
+    <button class="button" onclick="showContent()">Enjoy my beautiful gossip girly</button>
+    
+    <div class="container" id="messageContent">
+        <h1>Happy Valentine's Day, My Delulu</h1>
+        <p>Every day, I find new reasons to be grateful for you. Even though we haven't yet shared the same space, you've filled my world with warmth, laughter, and a love so real it transcends any distance.</p>
+
+        <p>I imagine the way your eyes light up when you're happy, the sound of your laughter, the little things that make you, you. And though I haven't seen them with my own eyes, I feel them with my heart.</p>
+
+        <p>You're not just a part of my days, you are the brightest light in them. You make even the simplest moments feel special, and with you, love is not just a feeling; it's a beautiful journey we are writing together.</p>
+
+        <p>One day, the distance will no longer exist, and we’ll finally be able to experience all the little things we dream about. Until then, know that every heartbeat of mine carries your name, and every thought of mine carries love for you.</p>
+
+        <div class="heart">❤❤❤</div>
+
+        <p class="signature">Forever yours, my Delulu.</p>
+    </div>
+
+    <script>
+        function showContent() {
+            document.getElementById('messageContent').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
